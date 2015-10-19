@@ -95,11 +95,11 @@ var SongInfo = React.createClass({
 })
 
 
-var ScRouter = Backbone.Router.extend({
+// var ScRouter = Backbone.Router.extend({
 
-	router:{
-		'*home': 'showPlaylist'
-	},
+// 	router:{
+// 		'*home': 'showPlaylist'
+// 	},
 
 // 	showPlaylist: function(track){
 // 		var self = this
@@ -113,15 +113,15 @@ var ScRouter = Backbone.Router.extend({
 // 			React.render(<PlaylistView data={tracksData} />, 
 // 			document.getElementById('container'))}
 // )
-	},
+// 	},
 
-	initialize: function(){
-		console.log('initiated')
-		this.np = new Playlist()
-		Backbone.history.start()
-	}
+// 	initialize: function(){
+// 		console.log('initiated')
+// 		this.np = new Playlist()
+// 		Backbone.history.start()
+// 	}
 
-});
+// });
 
 
 // var newRouter = new ScRouter()
